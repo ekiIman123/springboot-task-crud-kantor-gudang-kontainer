@@ -105,7 +105,27 @@ src/main/java/com/example/demo/
 
 Import file berikut ke Postman untuk langsung mencoba semua endpoint:
 
-- [springboot-task.postman_collection.json](./springboot-task.postman_collection.json)
+Untuk mempermudah pengujian API, kamu dapat mengimpor koleksi dan environment ke Postman:
+
+### 🔗 Download:
+
+- 📁 [springboot-task.postman_collection.json](./springboot-task.postman_collection.json)
+- 🌐 [springboot-task-env.postman_environment.json](./springboot-task-env.postman_environment.json)
+
+### 🛠 Cara Import:
+
+- Buka Postman
+- Klik tombol Import, lalu pilih file postman_collection.json dan postman_environment.json
+- Aktifkan environment di pojok kanan atas
+- Klik request → Send
+
+### ✅ Endpoint yang Dicakup:
+
+- POST /kantor, GET /kantor/findAll, PUT, DELETE, dll
+- POST /gudang, GET by kodeKantor, dst.
+- POST /kontainer, GET by composite key, dll
+
+Semua endpoint disiapkan menggunakan variabel {{base_url}} agar fleksibel untuk environment lokal, staging, maupun production.
 
 ## 📌 Catatan
 
