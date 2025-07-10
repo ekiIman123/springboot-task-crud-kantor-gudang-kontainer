@@ -101,6 +101,12 @@ src/main/java/com/example/demo/
 └── DemoApplication.java
 ```
 
+## 📬 Postman Collection
+
+Import file berikut ke Postman untuk langsung mencoba semua endpoint:
+
+- [springboot-task.postman_collection.json](./springboot-task.postman_collection.json)
+
 ## 📌 Catatan
 
 - Semua kode sudah divalidasi dan berjalan di Swagger.
