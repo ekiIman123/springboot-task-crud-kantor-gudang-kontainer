@@ -36,3 +36,76 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/dbmu
 spring.datasource.username=postgres
 spring.datasource.password=Postgrenih123*
 ```
+
+3. Jalankan perintah:
+
+```properties
+mvn clean install
+mvn spring-boot:run
+```
+
+4. Akses Swagger UI di browser:
+
+```properties
+http://localhost:8080/swagger-ui.html
+```
+
+## 🧪 Contoh Payload
+
+POST /kantor
+
+```properties
+{
+  "namaKantor": "Kantor Pusat",
+  "kodeKantor": "KTR001",
+  "alamatKantor": "Jl. Merdeka No. 123"
+}
+```
+
+POST /gudang
+
+```properties
+{
+  "kodeGudang": "GD001",
+  "kodeKantor": "KTR001",
+  "alamat": "Jl. Gudang No. 45",
+  "latitude": -6.200000,
+  "longitude": 106.816666
+}
+```
+
+POST /kontainer
+
+```properties
+{
+  "kodeKantor": "KTR001",
+  "kodeGudang": "GD001",
+  "nomorDokumen": "DO12345",
+  "nomorKontainer": "CNT123456",
+  "jenisKontainer": "Dry Container"
+}
+```
+
+## 📂 Struktur Project
+
+```properties
+src/main/java/com/example/demo/
+├── controller/
+├── exception/
+├── model/
+│   └── pojo/
+├── repository/
+├── response/
+├── service/
+│   └── impl/
+└── DemoApplication.java
+```
+
+## 📌 Catatan
+
+- Semua kode sudah divalidasi dan berjalan di Swagger.
+- Fokus utama adalah desain layer REST API yang clean dan maintainable.
+- Aplikasi ini siap dikembangkan lebih lanjut untuk implementasi auth atau deploy ke cloud.
+
+Terima kasih atas kesempatan tes ini 🙏
+Silakan cek kode lengkap di repo ini. Bila diperlukan, saya siap menjelaskan arsitektur atau design choice yang saya ambil.
