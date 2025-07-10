@@ -134,4 +134,3 @@ Semua endpoint disiapkan menggunakan variabel {{base_url}} agar fleksibel untuk 
 - Aplikasi ini siap dikembangkan lebih lanjut untuk implementasi auth atau deploy ke cloud.
 
 Terima kasih atas kesempatan tes ini 🙏
-Silakan cek kode lengkap di repo ini. Bila diperlukan, saya siap menjelaskan arsitektur atau design choice yang saya ambil.
