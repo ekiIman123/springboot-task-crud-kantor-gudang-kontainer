@@ -1,6 +1,6 @@
 # Spring Boot CRUD API — Kantor, Gudang, Kontainer
 
-Proyek ini adalah bagian dari technical test backend (interview) yang diberikan oleh tim <NAMA PERUSAHAAN/REKRUTER>. Aplikasi ini membangun RESTful API dengan tiga entitas utama: `KANTOR`, `GUDANG`, dan `KONTAINER`, menggunakan **Spring Boot 2.7.18**, **Java 17**, dan **PostgreSQL**.
+Proyek ini adalah bagian dari technical test backend (interview) yang diberikan oleh tim ALUGRA. Aplikasi ini membangun RESTful API dengan tiga entitas utama: `KANTOR`, `GUDANG`, dan `KONTAINER`, menggunakan **Spring Boot 2.7.18**, **Java 17**, dan **PostgreSQL**.
 
 ## ✅ Fitur yang Diselesaikan
 
