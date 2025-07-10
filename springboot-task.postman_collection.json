@@ -18,12 +18,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/kantor",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "kantor"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["kantor"],
           "query": []
         },
         "body": {
@@ -44,13 +40,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/kantor/findAll",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "kantor",
-            "findAll"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["kantor", "findAll"],
           "query": []
         }
       }
@@ -67,13 +58,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/kantor/1",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "kantor",
-            "1"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["kantor", "1"],
           "query": []
         }
       }
@@ -90,13 +76,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/kantor/1",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "kantor",
-            "1"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["kantor", "1"],
           "query": []
         },
         "body": {
@@ -117,13 +98,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/kantor/1",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "kantor",
-            "1"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["kantor", "1"],
           "query": []
         }
       }
@@ -140,12 +116,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/gudang",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "gudang"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["gudang"],
           "query": []
         },
         "body": {
@@ -166,13 +138,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/gudang/findAll",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "gudang",
-            "findAll"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["gudang", "findAll"],
           "query": []
         }
       }
@@ -189,13 +156,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/gudang/1",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "gudang",
-            "1"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["gudang", "1"],
           "query": []
         }
       }
@@ -212,13 +174,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/gudang/byKodeKantor",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "gudang",
-            "byKodeKantor"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["gudang", "byKodeKantor"],
           "query": [
             {
               "key": "kodeKantor",
@@ -240,13 +197,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/gudang/1",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "gudang",
-            "1"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["gudang", "1"],
           "query": []
         },
         "body": {
@@ -267,13 +219,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/gudang/1",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "gudang",
-            "1"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["gudang", "1"],
           "query": []
         }
       }
@@ -290,12 +237,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/kontainer",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "kontainer"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["kontainer"],
           "query": []
         },
         "body": {
@@ -316,13 +259,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/kontainer/findAll",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "kontainer",
-            "findAll"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["kontainer", "findAll"],
           "query": []
         }
       }
@@ -339,13 +277,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/kontainer/1",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "kontainer",
-            "1"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["kontainer", "1"],
           "query": []
         }
       }
@@ -362,13 +295,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/kontainer/byKodeGudangKantorDokumen",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "kontainer",
-            "byKodeGudangKantorDokumen"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["kontainer", "byKodeGudangKantorDokumen"],
           "query": [
             {
               "key": "kodeKantor",
@@ -398,13 +326,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/kontainer/1",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "kontainer",
-            "1"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["kontainer", "1"],
           "query": []
         },
         "body": {
@@ -425,13 +348,8 @@
         ],
         "url": {
           "raw": "{{base_url}}/kontainer/1",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "kontainer",
-            "1"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["kontainer", "1"],
           "query": []
         }
       }
